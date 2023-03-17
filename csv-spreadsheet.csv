@@ -1,0 +1,14 @@
+Student Name:|[style: bold]||||
+Question 1: [style: bold]|What is 7 * 6?||||[bg: yellow]Points:|0
+Question 2: [style: bold]|What is the least common multiple of 3 and 5?||||[bg: yellow]Points:|0
+Question 3: [style: bold]|What is 60 divided by 5?||||[bg: yellow]Points:|0
+Question 4: [style: bold]|Solve for x: 3x + 4 = 19||||[bg: yellow]Points:|0
+Question 5: [style: bold]|What is the value of 5^3?||||[bg: yellow]Points:|0
+Question 6: [style: bold]|Simplify: 7 + 4 * 2 - 3||||[bg: yellow]Points:|0
+Question 7: [style: bold]|What is the area of a rectangle with length 6 and width 4?||||[bg: yellow]Points:|0
+Question 8: [style: bold]|What is the value of the expression: 2(6 - 3)?||||[bg: yellow]Points:|0
+Question 9: [style: bold]|What is the value of 45 when rounded to the nearest 10?||||[bg: yellow]Points:|0
+Question 10: [style: bold]|If x = 4 and y = 7| what is the value of 2x + 3y?||||[bg: yellow]Points:|0
+Total Points:|[formula: =SUM(G2:G11)]|[style: bold]||||
+Maximum Points:|[formula: =10*5]|[style: bold]||||
+Grade:|[formula: =IF(H13/H12>=0.9, "A", IF(H13/H12>=0.8, "B", IF(H13/H12>=0.7, "C", IF(H13/H12>=0.6, "D", "F"))))]|[style: bold]||||
